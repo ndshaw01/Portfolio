@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  color:#969696;
+  font-family:'Ubuntu', monospace;
+  background-color: #f0efeb;
+}
+body{
+  margin:0px auto;
+  width:100%;
+}
+header{
+  width:auto;
+  height:100px;
+  margin-top:15px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid gray ;
+}
+h1{
+  display: inline-block;
+  background-color: inherit;
+  font-size: 50px;
+  color:black;
+  height: auto;
+  margin:46px 50px 50px 50px;
+  width:50%;
+}
+.non-footer-wrapper{
+    margin:0 10%;
+
+}
+.left-flex{
+  width:50%;
+}
+.content{
+  margin:100px 0;
+
+  width: 100%;
+  font-size: 25px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.projects{
+  height:1000px;
+}
+footer{
+  background-color: #6b6b6b;
+  height:200px;
+}
+.social-media-header{
+  margin:50px;
+  float:right;
+}
+#GithubHeader{
+  float:right;
+  margin-top:50px;
+}
+.social-media-header-img{
+  height:50px;
+  float:right;
+}
+.projects-header{
+  border-top:1px solid gray;
+  border-bottom:1px solid gray;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 25px;
+  margin:100  px 0;
+}
+#CVbutton{
+  text-align: center;
+  font-size:20px;
+  padding:20px;
+  border:3px solid #969696;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#CVbutton:hover{
+  background-color: #969696;
+  color:#f0efeb;
+}
