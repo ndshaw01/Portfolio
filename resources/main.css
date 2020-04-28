@@ -9,6 +9,9 @@ body{
   margin:0px auto;
   width:100%;
 }
+a{
+  text-decoration:none;
+}
 header{
   width:auto;
   height:100px;
@@ -44,6 +47,31 @@ h1{
 }
 .projects{
   height:1000px;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+.project{
+  height:400px;
+  width:300px;
+  background-color:#cfcfcf;
+  border-radius: 7px;
+  margin:50px;
+
+}
+.projectPreview{
+  background-color:#cfcfcf;
+  height:150px;
+}
+.projectName{
+  margin:10px;
+  background-color:#cfcfcf;
+
+}
+.projectDescription{
+  background-color:#cfcfcf;
+
 }
 footer{
   background-color: #6b6b6b;
