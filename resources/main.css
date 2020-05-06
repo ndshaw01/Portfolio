@@ -1,122 +1,139 @@
-*{
-  margin:0;
-  padding:0;
-  color:#969696;
-  font-family:'Ubuntu', monospace;
-  background-color: #f0efeb;
+* {
+    margin: 0;
+    padding: 0;
+    color: #969696;
+    font-family: 'Ubuntu', monospace;
+    background-color: #f0efeb;
 }
-body{
-  margin:0px auto;
-  width:100%;
-}
-a{
-  text-decoration:none;
-}
-header{
-  width:auto;
-  height:100px;
-  margin-top:15px;
-  padding-bottom: 75px;
-  border-bottom: 1px solid gray ;
-}
-h1{
-  display: inline-block;
-  background-color: inherit;
-  font-size: 50px;
-  color:black;
-  height: auto;
-  margin:46px 50px 50px 50px;
-  width:50%;
-}
-.non-footer-wrapper{
-    margin:0 10%;
 
+body {
+    margin: 0px auto;
+    width: 100%;
 }
-.left-flex{
-  width:50%;
-}
-.content{
-  margin:100px 0;
 
-  width: 100%;
-  font-size: 25px;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
+a {
+    text-decoration: none;
+}
 
+header {
+    width: auto;
+    height: 100px;
+    margin-top: 15px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid gray;
 }
-.projects{
-  height:1000px;
-  width:100%;
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction:row;
-}
-.project{
-  height:400px;
-  width:300px;
-  background-color:#cfcfcf;
-  border-radius: 7px;
-  margin:50px;
-  padding:10px 0;
 
+h1 {
+    display: inline-block;
+    background-color: inherit;
+    font-size: 50px;
+    color: black;
+    height: auto;
+    margin: 46px 50px 50px 50px;
+    width: 50%;
 }
-.projectPreview{
-  display:block;
-  background-color:#cfcfcf;
-  margin: 0 auto;
-  height:30%;
-  align-content: center;
-  border-radius:5px;
-}
-.projectName{
-  font-size:30px;
-  text-align:center;
-  padding:10px;
-  margin:10px;
-  background-color:#cfcfcf;
 
+.non-footer-wrapper {
+    margin: 0 10%;
 }
-.projectDescription{
-  background-color:#cfcfcf;
-  margin:30px;
 
+.left-flex {
+    width: 50%;
 }
-footer{
-  background-color: #6b6b6b;
-  height:200px;
+
+.content {
+    margin: 100px 0;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.social-media-header{
-  margin:50px;
-  float:right;
+
+.projects {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
-#GithubHeader{
-  float:right;
-  margin-top:50px;
+
+.project {
+    height: 500px;
+    width: 25%;
+    background-color: #cfcfcf;
+    border-radius: 7px;
+    margin: 50px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.social-media-header-img{
-  height:50px;
-  float:right;
+
+.projectPreview {
+    display: block;
+    background-color: #cfcfcf;
+    margin: 0;
+    height: 35%;
+    border-radius: 5px;
+    flex-shrink: 0;
 }
-.projects-header{
-  border-top:1px solid gray;
-  border-bottom:1px solid gray;
-  text-align: center;
-  font-size: 35px;
-  font-weight: bold;
-  padding: 25px;
-  margin:100  px 0;
+
+.projectName {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #cfcfcf;
 }
-#CVbutton{
-  text-align: center;
-  font-size:20px;
-  padding:20px;
-  border:3px solid #969696;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: 250ms;
+
+.projectDescription {
+    background-color: #cfcfcf;
+    margin: 20px;
 }
-#CVbutton:hover{
-  background-color: #969696;
-  color:#f0efeb;
+
+footer {
+    background-color: #6b6b6b;
+    height: 200px;
+}
+
+.social-media-header {
+    margin: 50px;
+    float: right;
+}
+
+#GithubHeader {
+    float: right;
+    margin-top: 50px;
+}
+
+.social-media-header-img {
+    height: 50px;
+    float: right;
+}
+
+.projects-header {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 100 px 0;
+}
+
+.pageButton {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border: 3px solid #969696;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.pageButton:hover {
+    background-color: #969696;
+    color: #f0efeb;
 }
