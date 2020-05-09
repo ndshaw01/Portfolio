@@ -51,7 +51,6 @@ h1 {
 }
 
 .projects {
-    height: 1000px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -60,8 +59,8 @@ h1 {
 }
 
 .project {
-    height: 500px;
     width: 25%;
+    height: 50%;
     background-color: #cfcfcf;
     border-radius: 7px;
     margin: 50px;
@@ -75,7 +74,7 @@ h1 {
     display: block;
     background-color: #cfcfcf;
     margin: 0;
-    height: 35%;
+    width: 90%;
     border-radius: 5px;
     flex-shrink: 0;
 }
