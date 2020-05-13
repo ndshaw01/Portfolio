@@ -92,14 +92,10 @@ h1 {
     margin: 20px;
 }
 
-.social-media-header {
+.linkHeader {
     margin: 50px;
+    margin-left: 0;
     float: right;
-}
-
-#GithubHeader {
-    float: right;
-    margin-top: 50px;
 }
 
 .social-media-header-img {
