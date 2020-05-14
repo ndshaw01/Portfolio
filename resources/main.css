@@ -9,6 +9,20 @@
 body {
     margin: 0px auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    height: 200px;
+    background-color: #969696;
+    color: #f0efeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -31,6 +45,38 @@ h1 {
     height: auto;
     margin: 46px 50px 50px 50px;
     width: 50%;
+}
+
+.contactInformation {
+    background-color: #969696;
+    color: #f0efeb;
+}
+
+.footerHeader {
+    background-color: #969696;
+    color: #f0efeb;
+    text-align: center;
+}
+
+.footerList {
+    background-color: #969696;
+    color: #f0efeb;
+    margin: 10px;
+}
+
+.footerUList {
+    background-color: #969696;
+    color: #f0efeb;
+    list-style-type: none;
+}
+
+.footerLink {
+    background-color: #969696;
+    color: #f0efeb;
+}
+
+.footerLink:hover {
+    color: white;
 }
 
 .non-footer-wrapper {
